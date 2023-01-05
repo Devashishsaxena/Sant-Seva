@@ -8,12 +8,14 @@ import ContanctUs from './components/Contact/Contact';
 import Aasharam from './components/Aasharam/Aasharam';
 import Blog from './components/Blog/Blog';
 import Service from './components/Service/Service';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
  <>
 <NavBar></NavBar>
+
   <Routes>
     <Route path="/" element={<Home></Home>} />
         <Route path="/home" element={<Home></Home>} />
@@ -23,6 +25,7 @@ function App() {
         <Route path="/blog" element={<Blog/>} />
         <Route path="/service" element={<Service/>} />
   </Routes>
+  <Footer></Footer>
  </>
   );
 }

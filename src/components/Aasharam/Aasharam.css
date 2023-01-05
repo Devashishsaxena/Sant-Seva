@@ -1,0 +1,12 @@
+/* .ourSanta {
+    height: 25px;
+    width: 25px;
+    border-radius: 300px;
+} */
+
+.ourSanta {
+    height: 110px;
+    width: 110px;
+    border-radius: 300px;
+    border: 10px solid #ffffff
+}
