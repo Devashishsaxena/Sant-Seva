@@ -1,0 +1,20 @@
+button {
+  border: 1px solid #4DBB6D;
+  color: #4DBB6D;
+  padding: 11px 30px;
+  margin: 16px 0px 8px;
+  font: 12.8px sintony, sans-serif;
+}
+
+button:hover {
+  background-color: #4DBB6D;
+  color: #ffffff;
+}
+button a {
+  text-decoration: none;
+  /* color: #4DBB6D; */
+}
+button a:hover{
+  background-color: #4DBB6D;
+      color: #ffffff; 
+}

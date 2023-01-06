@@ -1,0 +1,17 @@
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
+
+
+p {
+    color: #777;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+
+
