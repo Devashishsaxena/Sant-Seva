@@ -3,6 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillGooglePlusSquare } from "react-icons/ai";
+import { Link } from "react-router-dom";
 function Footer() {
     return (<>
         <div class="container-fluid bg-dark text-white pt-5  ">     
@@ -36,8 +37,8 @@ function Footer() {
                 </div>
                 <hr/>
                 <div class="row">
-                    <div class="col-lg-12 col-sm-12 col-xs-12 text-center ">
-                        <p class="copyright ">Copyright © 2019 <p href="#">Akdesign</p>.</p>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 text-center mb-3 ">
+                        <Link className="text-decoration-none text-secondary">Copyright © 2023 Akdesign.</Link>
                     </div>                
                 </div>               
             </div>

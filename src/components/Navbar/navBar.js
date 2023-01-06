@@ -19,23 +19,33 @@ function NavBar() {
              <React.Fragment>
              <Navbar bg="dark" expand="lg" className="sticky-top">
                  <Container >
-                     <Navbar.Brand to="/home" style={{ color: 'white', margin: '5px', textDecoration: 'none' }}>Sant Seva</Navbar.Brand>
+                     <Navbar.Brand to="/home" style={{ color: 'white', margin: '5px', textDecoration: 'none' }} className="">Sant Seva</Navbar.Brand>
                      <Navbar.Toggle aria-controls="basic-navbar-nav" />
                      <Navbar.Collapse id="basic-navbar-nav">
                          <Nav className="ms-auto">
                              <Link to={"/home"} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}>Home</Link>
                              <Link to={"/about"} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}>About Us</Link>
                              <Link to={"/aasharam "} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}>Aasharam List</Link>
-                             <Link to={"/service"} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}> Services</Link>
+                             <Link to={"/oursant"} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}> OurSant</Link>
+                             <Link to={"/testinomials"} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}> Testinomials</Link>
                              <Link to={"/contact"} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}>Contact</Link>
                              <Link to={"/blog"} style={{ color: 'white', margin: '10px', textDecoration: 'none' }}>Blog</Link>
                              <Button to="#donate" style={{ color: 'white', margin: '5px', textDecoration: 'none' }}>Donate</Button>
+                             
                          </Nav>
+                         
                      </Navbar.Collapse>
                  </Container>
+                
              </Navbar>
            
+            
          </React.Fragment>
+           
+          
+
+        
+         
     )
 }
 export default NavBar;
