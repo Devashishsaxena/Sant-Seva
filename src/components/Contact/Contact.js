@@ -73,12 +73,12 @@ const ContactUs = () => {
                             mail2@example.com</p>
                     </Col>
                 </Row>
-                <div className=' ms-3'>
+                <div className=' ms-3 '>
                 <button><Link className='text-success '>SUBMIT NOW </Link></button>
             </div>
               </div>
           
-
+            <div className='mt-5'></div>
         </>
 
     )

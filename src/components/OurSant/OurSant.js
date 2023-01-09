@@ -1,11 +1,13 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
-import "./OurSant.css";
+import "./OurSant.css"
 import { AiOutlineRight } from "react-icons/ai";
 
 function OurSant() {
-    return (<>
+    return (
+    <>
+
+
          <div className="bg-dark pt-5 pb-5">
 	                <section className="page-header page-header-modern bg-color-quaternary page-header-md custom-page-header">
 					<div className="container">
@@ -28,15 +30,17 @@ function OurSant() {
 			</section>
 	</div>
     <div className="container mt-5">
-        <Button variant="" className="me-2 btn fw-bold">SHOW ALL</Button>
-      <Button variant="" className="me-2 btn fw-bold">ECONOMIC</Button>
-      <Button variant="" className="me-2 btn fw-bold">STRATEGIC</Button>
-      <Button variant="" className="me-2 btn fw-bold">TECH</Button>  
-      </div>
-        
-     
-      
-    
+    <button type="button" class="btn btn-primary ">SHOW ALL</button>
+    <button type="button" class="btn btn-primary">ECONOMIC</button>
+    <button type="button" class="btn btn-primary">STRATEGIC</button>
+    <button type="button" class="btn btn-primary">TECH</button>  
+
+    <Button variant="outline-primary">Primary</Button>{' '}
+      <Button variant="outline-secondary">Secondary</Button>{' '}
+      <Button variant="outline-success">Success</Button>{' '}
+      <Button variant="outline-warning">Warning</Button>{' '}
+    </div>    
+			<div className='mt-5'></div>
     </>
     )
 }
