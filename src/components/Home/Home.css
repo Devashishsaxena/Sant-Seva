@@ -1,30 +1,44 @@
-
 .linkTag {
     border: 1px solid #4DBB6D;
-        color: #4DBB6D;
-        padding: 11px 30px;
-        margin: 16px 0px 8px;
-        font: 12.8px sintony, sans-serif;
-        text-decoration: none;
+    color: #4DBB6D;
+    padding: 11px 30px;
+    margin: 16px 0px 8px;
+    font: 12.8px sintony, sans-serif;
+    text-decoration: none;
 
 }
+
 .linkTag:hover {
     background-color: #4DBB6D;
-        color: #ffffff !important;
+    color: #ffffff !important;
 }
-.linkButton{
-       border: 1px solid #4DBB6D;
-        background-color: #4DBB6D;
-        padding: 11px 30px;
-        margin: 16px 0px 8px;
-        font: 12.8px sintony, sans-serif;
-        text-decoration: none;
-        color: #ffffff !important;
+.Read-More {
+            border: 1px solid #4DBB6D;
+            color: #4DBB6D;
+            padding: 11px 30px;
+            margin: 16px 0px 8px;
+            font: 12.8px sintony, sans-serif;
+            text-decoration: none;
 }
-.linkButton:hover{
+.Read-More:hover {
     background-color: #69c684;
-        color: #ffffff !important;
+    color: #ffffff !important;
 }
+.linkButton {
+    border: 1px solid #4DBB6D;
+    background-color: #4DBB6D;
+    padding: 11px 30px;
+    margin: 16px 0px 8px;
+    font: 12.8px sintony, sans-serif;
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.linkButton:hover {
+    background-color: #69c684;
+    color: #ffffff !important;
+}
+
 .FaGreaterThan {
     background-color: #E2FDEA;
     height: 25px;
@@ -43,13 +57,25 @@
     height: 110px;
     width: 110px;
     border-radius: 300px;
-border: 10px solid #ffffff
+    border: 10px solid #ffffff
 }
 
-.GreenEffect:hover{
+.ourTest {
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    border: 10px solid #ffffff
+}
+
+.vertical {
+    border-left: 4px solid #4DBB6D;
+    height: 60px;
+}
+
+.GreenEffect:hover {
     cursor: pointer;
-    background-color : #4DBB6D;
-    
+    background-color: #4DBB6D;
+
 }
 
 .demo {
@@ -90,6 +116,64 @@ border: 10px solid #ffffff
 
 .demo .col-2 {
     margin: auto;
+}
+.carousel-control-prev-icon {
+    background: url("../Assests/Img/ArrowLeft.png")  no-repeat scroll 0 0 !important;
+    position: absolute !important;
+    min-height: 20vh !important;
+   min-width: 50px !important;
+background-size: contain !important;   
+ cursor: pointer;
+}
+.carousel-control-next-icon{
+   background: url("../Assests/Img/ArrowRight.png") no-repeat scroll 0 0 !important;
+    position: absolute !important;
+    height: 20vh !important;
+    width: 50px !important;
+    background-size: contain !important;
+    cursor: pointer;
+}
+
+.carousel-dark .carousel-control-next-icon {
+    display: none;
+}
+
+.carousel-dark .carousel-control-prev-icon {
+    display: none;
+}
+.carousel-indicators {
+    position: absolute !important ;
+    left: 50% !important;
+    top: -5vh;
+    width: 100px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border: 6px solid #000 !important;
+    background-color: #fff !important;
+/* position: absolute !important; */
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border: 6px solid #4DBB6D !important;
+    background-color: #fff !important;
+}
+
+.carousel-indicators [data-bs-target].active {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border: 6px solid #4DBB6D !important;
+    background-color: #fff !important;
+    /* display: "flex" !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-start !important; */
 }
 
 
