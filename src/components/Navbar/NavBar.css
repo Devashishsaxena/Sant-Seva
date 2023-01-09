@@ -40,7 +40,9 @@
     padding: 1rem;
     font-weight: 500;
 }
-
+.header ul {
+    list-style-type: none;
+} 
 .header .nav-item a:hover {
     padding-bottom: 12px;
     border-bottom: 3px solid var(--secondary-color);
@@ -50,7 +52,20 @@
     display: none;
 }
 
+.DonateButton {
+    border: 1px solid #4DBB6D;
+    color: #4DBB6D;
+    padding: 11px 30px;
+    margin: 16px 0px 8px;
+    font: 12.8px sintony, sans-serif;
+    text-decoration: none;
 
+}
+
+.DonateButton:hover {
+    background-color: #4DBB6D;
+    color: #ffffff !important;
+}
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
@@ -89,4 +104,10 @@
     .header .navbar img {
         width: 150px;
     }
+        .DonateButton {
+           width: 30%;
+           position: relative;
+           left: 230px;
+    
+        }
 }

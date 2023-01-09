@@ -39,9 +39,8 @@ function OurSant() {
       <Button variant="outline-secondary">Secondary</Button>{' '}
       <Button variant="outline-success">Success</Button>{' '}
       <Button variant="outline-warning">Warning</Button>{' '}
-    </div>
-            
-    
+    </div>    
+			<div className='mt-5'></div>
     </>
     )
 }

@@ -1,22 +1,29 @@
-button {
-    border: 1px solid #4DBB6D;
-    color: #4DBB6D;
-    padding: 11px 30px;
-    margin: 16px 0px 8px;
-    font: 12.8px sintony, sans-serif;
-}
 
-button:hover {
-    background-color: #4DBB6D;
-    color: #ffffff;
+.linkTag {
+    border: 1px solid #4DBB6D;
+        color: #4DBB6D;
+        padding: 11px 30px;
+        margin: 16px 0px 8px;
+        font: 12.8px sintony, sans-serif;
+        text-decoration: none;
+
 }
-button a {
-    text-decoration: none;
-    color: #4DBB6D;
-}
-button a:hover{
+.linkTag:hover {
     background-color: #4DBB6D;
-        color: #ffffff;
+        color: #ffffff !important;
+}
+.linkButton{
+       border: 1px solid #4DBB6D;
+        background-color: #4DBB6D;
+        padding: 11px 30px;
+        margin: 16px 0px 8px;
+        font: 12.8px sintony, sans-serif;
+        text-decoration: none;
+        color: #ffffff !important;
+}
+.linkButton:hover{
+    background-color: #69c684;
+        color: #ffffff !important;
 }
 .FaGreaterThan {
     background-color: #E2FDEA;
@@ -27,8 +34,8 @@ button a:hover{
 }
 
 .ourSanta {
-    height: 25px;
-    width: 25px;
+    height: 110px;
+    width: 110px;
     border-radius: 300px;
 }
 
@@ -36,10 +43,14 @@ button a:hover{
     height: 110px;
     width: 110px;
     border-radius: 300px;
-    border: 10px solid #ffffff
+border: 10px solid #ffffff
 }
 
-
+.GreenEffect:hover{
+    cursor: pointer;
+    background-color : #4DBB6D;
+    
+}
 
 .demo {
     margin: 5rem auto;
@@ -80,7 +91,6 @@ button a:hover{
 .demo .col-2 {
     margin: auto;
 }
-
 
 @media screen and (max-width: 940px) {
     .demo .container {
