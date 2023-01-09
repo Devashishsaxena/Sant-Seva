@@ -38,10 +38,11 @@ function Aasharam() {
           </div>
         </section>
       </div>
+
       <div className=" container mt-5">
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSanta" />
+            <img src={Aasharam1} className="ourSan" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -59,7 +60,7 @@ function Aasharam() {
         </div>
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSanta" />
+            <img src={Aasharam1} className="ourSan" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -77,7 +78,7 @@ function Aasharam() {
         </div>
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSanta" />
+            <img src={Aasharam1} className="ourSan" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -98,7 +99,7 @@ function Aasharam() {
         </div>
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSanta" />
+            <img src={Aasharam1} className="ourSan" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -119,7 +120,7 @@ function Aasharam() {
         </div>
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSanta" />
+            <img src={Aasharam1} className="ourSan" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -137,7 +138,7 @@ function Aasharam() {
         </div>
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSanta" />
+            <img src={Aasharam1} className="ourSan" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
