@@ -1,10 +1,7 @@
 import React,{useState} from 'react';
 import './NavBar.css';
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa'
-// import Button from 'react-bootstrap/Button';
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
 function NavBar() {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -53,7 +50,9 @@ function NavBar() {
                         <li className='nav-item'>
                             <a href="/blog" style={{ color: 'white', margin: '10px', textDecoration: 'none' }} onClick={closeMenu}>Blog</a>
                         </li>
-                        <button class='DonateButton'  onClick={closeMenu}>Donate</button>
+                        <div className='mt-3'>
+                            <Link to='/' className='linkButton'>Donate</Link>
+                        </div>
                 </ul>
             </nav>
         </div>

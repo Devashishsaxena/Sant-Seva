@@ -5,6 +5,7 @@ import temple1 from '../Assests/Img/temple1.jpg';
 import { AiOutlineRight } from "react-icons/ai";
 import { Col, Row } from "react-bootstrap";
 import { Link } from 'react-router-dom';
+import  "./Blog.css"
 function Blog() {
     return (
         <>
@@ -45,25 +46,23 @@ function Blog() {
 
             <div className="container mt-5">
                 <div className="row">
-                    <Card style={{ width: 'auto', border: 'none' }} >
+                    <Card  style={{ width: 'auto', border: 'none' }} >
                         <Card.Body>
-                            <Row className="mt-2 me-5">
-                                <Col className="d-flex" style={{ postion: "relative" }}>
-                                    <Card.Img variant="bottom" src={temple1} style={{
+                            <Row className="mt-2 me-5 Card-absolute">
+                                <Col className="d-flex">
+                                    <Card.Img  src={temple1} style={{
                                         postion: "absolute", top: '250px',
                                         right: '-30px'
                                     }}/>
-                                    <Col className="d-flex flex-column justify-content-center">
-                                        <div style={{ marginLeft: "-70px" }}>
-                                        <Card style={{ width: "6rem", backgroundColor: "#4DBB6D", color: "#FFFFFF", font: "39px sintony,sans-serif", padding: "25px 15px" }}>
+                                    <Col >
+                                        <Card className="box" style={{ width: "6rem", backgroundColor: "#4DBB6D", color: "#FFFFFF", font: "39px sintony,sans-serif", padding: "25px 15px" }}>
                                             <h4 className="mx-3">20</h4>
                                             <h6 className="mx-2"> Oct-16</h6>
                                             </Card>
-                                        </div>
                                     </Col>
 
                                 </Col>
-                                <Col className="mt-3">
+                                <Col className="mt-3 mx-5">
                                     <Card.Text>
                                         <Card.Title >Card Title</Card.Title>
                                         <p className="lead mt-3 pb-5">  Some quick example text to build on the card title and make up the
@@ -75,8 +74,8 @@ function Blog() {
                                             Likes:<span className="text-danger col"><b>38</b></span>
                                         </p>
                                     </Card.Text>
-                                    <div className='mt-3'>
-                                        <Link to='/about' className='linkTag'>Read More</Link>
+                                    <div className='d-flex justify-content-start align-items-start mt-5'>
+                                        <Link to='/about' className='Read-More'>Read More</Link>
                                     </div>
                                 </Col>
                             </Row>
@@ -86,19 +85,18 @@ function Blog() {
                 <div className="row mt-5">
                     <Card style={{ width: 'auto', border: 'none' }} >
                         <Card.Body>
-                            <Row className="mt-2 me-5">
+                            <Row className="mt-2 me-5 Card-absolute">
                                 <Col className="d-flex">
                                     <Card.Img variant="bottom" src={temple1} />
-                                    <Col className="d-flex flex-column justify-content-center">
-                                        <div style={{ marginLeft: "-70px" }}>
-                                        <Card style={{ width: "6rem", backgroundColor: "#4DBB6D", color: "#FFFFFF", font: "39px sintony,sans-serif", padding: "25px 15px" }}>
+                                    <Col>
+                                        <Card className="box"  style={{ width: "6rem", backgroundColor: "#4DBB6D", color: "#FFFFFF", font: "39px sintony,sans-serif", padding: "25px 15px" }}>
                                             <h4 className="mx-3">20</h4>
                                             <h6 className="mx-2"> Oct-16</h6>
                                             </Card>
-                                        </div>
+                                        
                                     </Col>
                                 </Col>
-                                <Col className="mt-3">
+                                <Col className="mt-3 mx-5">
                                     <Card.Text>
                                         <Card.Title >Card Title</Card.Title>
                                         <p className="lead mt-3 pb-5">  Some quick example text to build on the card title and make up the
@@ -110,8 +108,8 @@ function Blog() {
                                             Likes:<span className="text-danger col"><b>38</b></span>
                                         </p>
                                     </Card.Text>
-                                    <div className='mt-3'>
-                                        <Link to='/about' className='linkTag'>Read More</Link>
+                                    <div className='d-flex justify-content-start align-items-start mt-5'>
+                                        <Link to='/about' className='Read-More'>Read More</Link>
                                     </div>
                                 </Col>
                             </Row>
@@ -121,19 +119,17 @@ function Blog() {
                 <div className="row mt-5">
                     <Card style={{ width: 'auto', border: 'none' }} >
                         <Card.Body>
-                            <Row className="mt-2 me-5">
+                            <Row className="mt-2 me-5 Card-absolute">
                                 <Col className="d-flex">
                                     <Card.Img variant="bottom" src={temple1} />
-                                    <Col className="d-flex flex-column justify-content-center">
-                                        <div style={{ marginLeft: "-70px" }}>
-                                        <Card style={{ width: "6rem", backgroundColor: "#4DBB6D", color: "#FFFFFF", font: "39px sintony,sans-serif", padding: "25px 15px" }}>
+                                    <Col>
+                                        <Card className="box" style={{ width: "6rem", backgroundColor: "#4DBB6D", color: "#FFFFFF", font: "39px sintony,sans-serif", padding: "25px 15px" }}>
                                             <h4 className="mx-3">20</h4>
                                             <h6 className="mx-2"> Oct-16</h6>
-                                            </Card>
-                                        </div>
+                                        </Card>
                                     </Col>
                                 </Col>
-                                <Col className="mt-3">
+                                <Col className="mt-3 mx-5">
                                     <Card.Text>
                                         <Card.Title >Card Title</Card.Title>
                                         <p className="lead mt-3 pb-5">  Some quick example text to build on the card title and make up the
@@ -145,15 +141,15 @@ function Blog() {
                                             Likes:<span className="text-danger col"><b>38</b></span>
                                         </p>
                                     </Card.Text>
-                                    <div className='mt-3'>
-                                        <Link to='/about' className='linkTag'>Read More</Link>
+                                    <div className='d-flex justify-content-start align-items-start mt-5'>
+                                        <Link to='/about' className='Read-More'>Read More</Link>
                                     </div>
                                 </Col>
                             </Row>
                         </Card.Body>
-                    </Card>
+                        </Card>
+                    </div>
                 </div>
-            </div>
 
 
 

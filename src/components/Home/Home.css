@@ -143,40 +143,104 @@ background-size: contain !important;
 }
 .carousel-indicators {
     position: absolute !important ;
-    left: 50% !important;
+    left: 75% !important;
     top: -5vh;
     width: 100px;
 }
 .carousel-indicators [data-bs-target] {
-    width: 10px !important;
-    height: 10px !important;
+    width: 12px !important;
+    height: 12px !important;
     border-radius: 50% !important;
-    border: 6px solid #000 !important;
+    border: 2px solid #000 !important;
     background-color: #fff !important;
-/* position: absolute !important; */
 }
 
 .carousel-indicators [data-bs-target]:hover {
-    width: 10px !important;
-    height: 10px !important;
+    width: 12px !important;
+    height: 12px !important;
     border-radius: 50% !important;
-    border: 6px solid #4DBB6D !important;
+    border: 2px solid #4DBB6D !important;
     background-color: #fff !important;
 }
 
 .carousel-indicators [data-bs-target].active {
-    width: 10px !important;
-    height: 10px !important;
+    width: 12px !important;
+    height: 12px !important;
     border-radius: 50% !important;
-    border: 6px solid #4DBB6D !important;
+    border: 2px solid #4DBB6D !important;
     background-color: #fff !important;
-    /* display: "flex" !important;
-    flex-direction: column !important;
-    justify-content: end !important;
-    align-items: flex-start !important; */
 }
+.oursant {
+    background-color: #eef4f2 !important;
+        border-color: #dfeae6 !important;
+}
+.Font-oursant {
+    font-size: 16.8px;
+    font-family: sintony,sans-serif;
+}
+.Font-oursant-ok {
+    font-size: 14px;
+        font-family: sintony, sans-serif;
+}
+.oursant-icon {
+    position: relative;
+        top: 54%;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        padding-bottom: 13px;
 
+      
+}
+.oursant-icon:hover {
+        width: 50px;
+        height: 20px;
+        cursor: pointer;
 
+}
+.Font-Carousel {
+    font-size: 26px;
+    font-family: playfair Display, serif;
+}
+.Font-Schedule {
+    color: #777777;
+    margin: "0px 0px 20px";
+     font-size: "13px";
+     font-family: "Sintony,sans-serif";
+}
+.large-slider{
+    display: block;
+}
+.mob-slider{
+    display: none;
+}
+  .mobile-slider {
+      display: none;
+  }
+
+@media screen and (max-width: 940px) {
+    .large-slider {
+            display: none;
+        }
+    
+        .mob-slider {
+            display: block;
+        }
+}
+@media screen and (max-width: 425px) {
+    .large-slider {
+            display: none;
+        }
+    
+        .mob-slider {
+            display: none;
+        }
+        .mobile-slider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
 @media screen and (max-width: 940px) {
     .demo .container {
         max-width: 100%;
@@ -188,4 +252,129 @@ background-size: contain !important;
         width: 100%;
         height: auto;
     }
+    
 }
+@media screen and (max-width: 320px) {
+.ashram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media screen and (max-width: 768px) {
+
+.carousel-indicators {
+        left: 65% !important;
+      
+    }
+}
+@media screen and (max-width: 425px) {
+
+.carousel-indicators {
+        left: 60% !important;
+      
+    }
+}
+@media screen and (max-width: 375px) {
+
+.carousel-indicators {
+        left: 58% !important;
+      
+    }
+}
+@media screen and (max-width: 320px) {
+
+.carousel-indicators {
+        left: 50% !important;
+      
+    }
+}
+@media screen and (max-width: 320px) {
+
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+@media screen and (max-width: 375px) {
+
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+@media screen and (max-width: 425px) {
+
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+@media screen and (max-width: 768px) {
+
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+@media screen and (max-width: 425px) {
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+}
+@media screen and (max-width: 768px) {
+.AshramList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+}
+@media screen and (max-width: 320px) {
+.ourSanta{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+}
+@media screen and (max-width: 375px) {
+.ourSanta{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+}
+@media screen and (max-width: 425px) {
+.ourSanta{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+}
+@media screen and (max-width: 768px) {
+.Card-Title{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+}
+
+
