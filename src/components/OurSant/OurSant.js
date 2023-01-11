@@ -1,6 +1,7 @@
 import React from "react";
 import Aasharam4 from "../Assests/Img/Aasharam4.jpg";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 import ListGroup from "react-bootstrap/ListGroup";
 import "./OurSant.css";
 import { AiOutlineRight } from "react-icons/ai";
@@ -23,13 +24,13 @@ function OurSant() {
                 <small>
                   <ul className="breadcrumb d-flex justify-content-end  ">
                     <li className=" me-end ">
-                      <a
+                      <Link
+                        to={"/home"}
                         href="#"
                         className="text-underline-hover text-white me-2"
                       >
-                        {" "}
                         Home <AiOutlineRight />
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="active text-white me-5 ">
@@ -63,19 +64,16 @@ function OurSant() {
       <div class="container mb-5  ">
         <div
           className="row d-flex justify-content-center"
-          style={{ paddingLeft: "9px" }}
+          //   style={{ paddingLeft: "9px" }}
         >
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -94,17 +92,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -123,17 +118,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -152,17 +144,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -181,17 +170,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -210,17 +196,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4  col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -239,17 +222,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -268,17 +248,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -297,17 +274,14 @@ function OurSant() {
               </div>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
-            <Card
-              style={{ width: "22rem", height: "22rem" }}
-              className="main-card rounded-0"
-            >
+          <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
+            <Card style={{ height: "22rem" }} className="main-card rounded-0">
               <div className="temp">
                 <Card.Img
                   style={{ height: "16rem" }}
                   src={Aasharam4}
                   variant="top"
-                  className="main-img rounded-0"
+                  className="main-img rounded-0 img-fluid"
                 />
               </div>
               <div className="temp-1 pb-5">
@@ -328,7 +302,13 @@ function OurSant() {
           </div>
 
           {/* <div className="col-lg-4 col-md-6 col-sm-12">
-
+            <div className="card" style={{ width: "22rem" }}>
+              <img src={Aasharam4} className="img-fluid" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">content.</p>
+              </div>
+            </div>
           </div> */}
         </div>
       </div>
