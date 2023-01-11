@@ -48,6 +48,7 @@
     width: 25px;
     border-radius: 25px;
     padding: 5px;
+    color: grey;
 }
 
 .ourSanta {
@@ -225,9 +226,11 @@
     font-size: "13px";
     font-family: "Sintony,sans-serif";
 }
+
 .mail {
     color: #fff;
 }
+
 .Mail-m {
     color: #fff;
 }
@@ -247,9 +250,16 @@
 .mob-main-slider {
     display: none;
 }
+
 .mob-Sub-slider {
     display: none;
 }
+.Solution {
+    font-size: 29.9px;
+    font-family: Playfair Display,sans-serif;
+    margin: 0px 0px 48px;
+}
+
 
 @media screen and (max-width: 940px) {
     .large-slider {
@@ -436,14 +446,17 @@
     .mob-main-slider {
         display: block;
     }
+
     .mob-Sub-slider {
         display: none;
     }
+
     .Bussiness {
         width: 100%;
     }
 
 }
+
 @media screen and (max-width: 425px) {
     .main-slider {
         display: none;
@@ -452,18 +465,50 @@
     .mob-main-slider {
         display: none;
     }
+
     .mob-Sub-slider {
         display: block;
     }
+
     .call-us {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
     }
-                .Bussiness {
-                    width: 100%;
-                }
+
+    .Bussiness {
+        width: 100%;
+    }
 
 }
+@media screen and (max-width: 320px) {
+.certified {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+line-height:2 ;
+}
 
+}
+@media screen and (max-width: 375px) {
+.certified {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+line-height:2 ;
+}
+
+}
+@media screen and (max-width: 425px) {
+.certified {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+line-height:2 ;
+}
+
+}

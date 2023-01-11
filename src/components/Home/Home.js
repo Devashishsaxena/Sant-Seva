@@ -91,7 +91,7 @@ function Home() {
                             <div className='row '>
                                 <div className='col-md-6 '>
                                     <hr />
-                                    <h3 className='d-flex justify-content-start align-items-start'>Solutionsfor <br />
+                                    <h3 className='d-flex justify-content-start align-items-start Solution' >Solutionsfor <br />
                                         Pro Business Plan</h3>
                                     <div className='d-flex justify-content-start align-items-start mt-5'>
                                         <Link to='/about' className='linkButton'>GET STARTED</Link>
@@ -159,7 +159,7 @@ function Home() {
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-6'>
-                                    <h3 className='d-flex justify-content-start align-items-start'>Get your <br />
+                                        <h3 className='d-flex justify-content-start align-items-start Solution'>Get your <br />
                                         Free Consultation</h3>
                                     <div className='d-flex justify-content-start align-items-start mt-5'>
                                         <Link to='/about' className='linkButton'>GET STARTED</Link>
@@ -182,7 +182,7 @@ function Home() {
                         <div className='container'>
                             <div className='row '>
                                 <div className='col-6 '>
-                                    <h3 className='d-flex justify-content-start align-items-start '>Solutionsfor <br />
+                                        <h3 className='d-flex justify-content-start align-items-start Solution'>Solutionsfor <br />
                                         Pro Business Plan</h3>
                                     <div className='d-flex justify-content-start align-items-start mt-5'>
                                         <Link to='/about' className='linkButton'>GET STARTED</Link>
@@ -193,7 +193,8 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
-                <div className='row bg-dark Bussiness'>
+                <div className='container-fluid'>
+                <div className='row bg-black'>
                     <div className="col-md-6">
                         <div className='d-flex justify-content-start align-items-start'>
                             <h1 className='Font-Carousel'>- Are you looking for a
@@ -224,7 +225,9 @@ function Home() {
                         </div>
                     </div>
 
+
                     </div>
+                </div>
             </div>
 
 
@@ -243,7 +246,7 @@ function Home() {
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-6'>
-                                    <h3 className='d-flex justify-content-start align-items-start'>Get your <br />
+                                        <h3 className='d-flex justify-content-start align-items-start Solution'>Get your <br />
                                         Free Consultation</h3>
                                     <div className='d-flex justify-content-start align-items-start mt-5'>
                                         <Link to='/about' className='linkButton'>GET STARTED</Link>
@@ -277,7 +280,8 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
-                <div className='row bg-dark' >
+                <div className='container'>
+                <div className='row bg-black '  >
                     <div className="col-md-6">
                         <div className='d-flex justify-content-start align-items-start'>
                             <h1 className='Font-Carousel'>- Are you looking for a
@@ -308,6 +312,7 @@ function Home() {
                         </div>
                     </div>
 
+                    </div>
                 </div>
             </div>
 
@@ -327,7 +332,7 @@ function Home() {
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam beatae, debitis nisi quod nam architecto unde non, quibusdam in corporis corrupti. Nostrum, accusamus adipisci voluptates facilis dolorum velit tempora molestias voluptatibus laborum beatae, necessitatibus dolores, tempore assumenda iste quo quis nesciunt. Exercitationem voluptas eligendi consequuntur iusto sint at harum eum. Explicabo quisquam aliquam non quis assumenda, sint quos iusto, neque laboriosam quo minima aut amet culpa, ex dolore quidem accusantium odit. Quaerat suscipit distinctio fugiat repellendus ea reiciendis quisquam, quo odio sunt dignissimos aperiam nihil ipsa nesciunt perspiciatis eos facilis minus. Eius delectus exercitationem voluptatem repellendus accusamus laboriosam consectetur.
                         </p>
-                        <div className='d-flex flex-direction-column'>
+                        <div className='d-flex flex-direction-column certified'>
                             <div className='col-6'>
                                 <ul>
                                     <li className='breadcrumb'>
@@ -476,8 +481,10 @@ function Home() {
                         <Carousel.Item>
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-2'>
-                                        <img src={Temples1} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img  className='corprate-Img-2' src={Temples1} style={{ width: '14rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corpate Finance</h5>
                                             <div>
