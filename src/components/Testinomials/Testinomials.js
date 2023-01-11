@@ -6,6 +6,7 @@ import "./Testinomials.css";
 import muni1 from "../Assests/Img/muni1.jpg";
 import muni2 from "../Assests/Img/muni2.jpg";
 import muni3 from "../Assests/Img/muni3.jpg";
+import { Link } from "react-router-dom";
 
 function Testinomials() {
   return (
@@ -24,12 +25,13 @@ function Testinomials() {
                 <small>
                   <ul className="breadcrumb d-flex justify-content-end  ">
                     <li className=" me-end ">
-                      <a
+                      <Link
+                        to={"/home"}
                         href="#"
                         className="text-underline-hover text-white me-2"
                       >
                         Home <AiOutlineRight />
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="active text-white me-5 ">

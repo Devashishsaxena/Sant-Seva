@@ -20,16 +20,17 @@ function Aasharam() {
                 <small>
                   <ul className="breadcrumb d-flex justify-content-end  ">
                     <li className=" me-end ">
-                      <a
+                      <Link
+                        to={"/home"}
                         href="#"
                         className="text-underline-hover text-white me-2"
                       >
                         Home <AiOutlineRight />
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="active text-white me-5 ">
-                      <span className="text-secondary">Aasharam list</span>
+                      <Link className="text-secondary ">Aasharam list</Link>
                     </li>
                   </ul>
                 </small>
@@ -38,11 +39,10 @@ function Aasharam() {
           </div>
         </section>
       </div>
-
-      <div className=" container mt-5">
+      <div className=" container mt-5 mb-5">
         <div className="row">
-          <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSan" />
+          <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
+            <img src={Aasharam1} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -58,9 +58,9 @@ function Aasharam() {
             </Link>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSan" />
+        <div className="row mt-5">
+          <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
+            <img src={Aasharam1} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -76,9 +76,9 @@ function Aasharam() {
             </Link>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSan" />
+        <div className="row mt-5">
+          <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
+            <img src={Aasharam1} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -97,9 +97,9 @@ function Aasharam() {
             </Link>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSan" />
+        <div className="row mt-5">
+          <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
+            <img src={Aasharam1} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -118,9 +118,9 @@ function Aasharam() {
             </Link>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSan" />
+        <div className="row mt-5">
+          <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
+            <img src={Aasharam1} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -136,9 +136,9 @@ function Aasharam() {
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-2 col-md-3 col-sm-12 text-center">
-            <img src={Aasharam1} className="ourSan" />
+        <div className="row mt-5">
+          <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
+            <img src={Aasharam1} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>

@@ -32,13 +32,13 @@ const ContactUs = () => {
                 <small>
                   <ul className="breadcrumb d-flex justify-content-end  ">
                     <li className=" me-end ">
-                      <a
+                      <Link
+                        to={"/home"}
                         href="#"
                         className="text-underline-hover text-white me-2"
                       >
-                        {" "}
                         Home <AiOutlineRight />
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="active text-white me-5 ">
@@ -109,12 +109,12 @@ const ContactUs = () => {
                 aria-describedby="inputGroup-sizing-default"
               />
             </InputGroup>
-            <div className=" ">
+            <div className="mb-4 ">
               <button className="submit-btn">SUBMIT NOW</button>
             </div>
           </Col>
 
-          <Col xs lg="4">
+          <Col xs lg="4 ">
             <h3>
               <HiOutlineLocationMarker style={{ color: "#4dbb6d" }} /> - Address
             </h3>

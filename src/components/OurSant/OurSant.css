@@ -26,8 +26,6 @@
 
     .main-card{
       overflow: hidden !important;
-      margin: 0;
-      position: relative;
       border-radius: 0px;
     }
     .main-card:hover{
@@ -36,7 +34,7 @@
     }
     
     
-}
+
 
     
     .temp{
@@ -67,9 +65,7 @@
         color: white;  
         display: block;
     }
-
-
-   
+ 
  .text{
 
     color: #777;

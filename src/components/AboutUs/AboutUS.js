@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutUS.css";
 
 import { AiOutlineRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 // import { BsFacebook } from "react-icons/bs";
 // import { BsLinkedin } from "react-icons/bs";
 // import { AiFillTwitterSquare } from "react-icons/ai";
@@ -24,15 +25,18 @@ function AboutUs() {
                 <small>
                   <ul className="breadcrumb d-flex justify-content-end  ">
                     <li className=" me-end ">
-                      <a
+                      <Link
+                        to={"/home"}
                         href="#"
                         className="text-underline-hover text-white me-2"
                       >
                         Home <AiOutlineRight />
-                      </a>
+                      </Link>
                     </li>
 
-                    <li className="active text-secondary me-5 ">About Us</li>
+                    <Link className="active text-secondary me-5 ">
+                      About Us
+                    </Link>
                   </ul>
                 </small>
               </div>
