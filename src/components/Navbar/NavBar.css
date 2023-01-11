@@ -138,3 +138,11 @@
     
         }
 }
+@media screen  and (max-width:1024px) {
+    .header .nav-item {
+          padding: 10px;
+    
+        }
+}
+
+

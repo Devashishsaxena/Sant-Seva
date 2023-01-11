@@ -12,18 +12,21 @@
     background-color: #4DBB6D;
     color: #ffffff !important;
 }
+
 .Read-More {
-            border: 1px solid #4DBB6D;
-            color: #4DBB6D;
-            padding: 11px 30px;
-            margin: 16px 0px 8px;
-            font: 12.8px sintony, sans-serif;
-            text-decoration: none;
+    border: 1px solid #4DBB6D;
+    color: #4DBB6D;
+    padding: 11px 30px;
+    margin: 16px 0px 8px;
+    font: 12.8px sintony, sans-serif;
+    text-decoration: none;
 }
+
 .Read-More:hover {
     background-color: #69c684;
     color: #ffffff !important;
 }
+
 .linkButton {
     border: 1px solid #4DBB6D;
     background-color: #4DBB6D;
@@ -117,21 +120,25 @@
 .demo .col-2 {
     margin: auto;
 }
+
 .carousel-control-prev-icon {
-    background: url("../Assests/Img/ArrowLeft.png")  no-repeat scroll 0 0 !important;
+    background: url("../Assests/Img/ArrowLeft.png") no-repeat scroll 0 0 !important;
     position: absolute !important;
     min-height: 20vh !important;
-   min-width: 50px !important;
-background-size: contain !important;   
- cursor: pointer;
+    min-width: 50px !important;
+    background-size: contain !important;
+    cursor: pointer;
+    color: #FFFFFF !important;
 }
-.carousel-control-next-icon{
-   background: url("../Assests/Img/ArrowRight.png") no-repeat scroll 0 0 !important;
+
+.carousel-control-next-icon {
+    background: url("../Assests/Img/ArrowRight.png") no-repeat scroll 0 0 !important;
     position: absolute !important;
     height: 20vh !important;
     width: 50px !important;
     background-size: contain !important;
     cursor: pointer;
+    color: #FFFFFF !important;
 }
 
 .carousel-dark .carousel-control-next-icon {
@@ -141,12 +148,14 @@ background-size: contain !important;
 .carousel-dark .carousel-control-prev-icon {
     display: none;
 }
+
 .carousel-indicators {
-    position: absolute !important ;
+    position: absolute !important;
     left: 75% !important;
     top: -5vh;
     width: 100px;
 }
+
 .carousel-indicators [data-bs-target] {
     width: 12px !important;
     height: 12px !important;
@@ -170,77 +179,104 @@ background-size: contain !important;
     border: 2px solid #4DBB6D !important;
     background-color: #fff !important;
 }
+
 .oursant {
     background-color: #eef4f2 !important;
-        border-color: #dfeae6 !important;
+    border-color: #dfeae6 !important;
 }
+
 .Font-oursant {
     font-size: 16.8px;
-    font-family: sintony,sans-serif;
+    font-family: sintony, sans-serif;
 }
+
 .Font-oursant-ok {
     font-size: 14px;
-        font-family: sintony, sans-serif;
+    font-family: sintony, sans-serif;
 }
+
 .oursant-icon {
     position: relative;
-        top: 54%;
-        right: 20px;
-        width: 30px;
-        height: 30px;
-        padding-bottom: 13px;
+    top: 54%;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 13px;
 
-      
+
 }
+
 .oursant-icon:hover {
-        width: 50px;
-        height: 20px;
-        cursor: pointer;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
 
 }
+
 .Font-Carousel {
     font-size: 26px;
     font-family: playfair Display, serif;
+    color: #FFFFFF;
 }
+
 .Font-Schedule {
-    color: #777777;
+    color: #fff;
     margin: "0px 0px 20px";
-     font-size: "13px";
-     font-family: "Sintony,sans-serif";
+    font-size: "13px";
+    font-family: "Sintony,sans-serif";
 }
-.large-slider{
+.mail {
+    color: #fff;
+}
+.Mail-m {
+    color: #fff;
+}
+
+.large-slider {
     display: block;
 }
-.mob-slider{
+
+.mob-slider {
     display: none;
 }
-  .mobile-slider {
-      display: none;
-  }
+
+.mobile-slider {
+    display: none;
+}
+
+.mob-main-slider {
+    display: none;
+}
+.mob-Sub-slider {
+    display: none;
+}
 
 @media screen and (max-width: 940px) {
     .large-slider {
-            display: none;
-        }
-    
-        .mob-slider {
-            display: block;
-        }
+        display: none;
+    }
+
+    .mob-slider {
+        display: block;
+    }
 }
+
 @media screen and (max-width: 425px) {
     .large-slider {
-            display: none;
-        }
-    
-        .mob-slider {
-            display: none;
-        }
-        .mobile-slider {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+        display: none;
+    }
+
+    .mob-slider {
+        display: none;
+    }
+
+    .mobile-slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
 @media screen and (max-width: 940px) {
     .demo .container {
         max-width: 100%;
@@ -252,129 +288,182 @@ background-size: contain !important;
         width: 100%;
         height: auto;
     }
-    
+
 }
+
 @media screen and (max-width: 320px) {
-.ashram {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .ashram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
-}
+
 @media screen and (max-width: 768px) {
 
-.carousel-indicators {
+    .carousel-indicators {
         left: 65% !important;
-      
+
     }
 }
+
 @media screen and (max-width: 425px) {
 
-.carousel-indicators {
+    .carousel-indicators {
         left: 60% !important;
-      
+
     }
 }
+
 @media screen and (max-width: 375px) {
 
-.carousel-indicators {
+    .carousel-indicators {
         left: 58% !important;
-      
+
     }
 }
+
 @media screen and (max-width: 320px) {
 
-.carousel-indicators {
+    .carousel-indicators {
         left: 50% !important;
-      
+
     }
 }
+
 @media screen and (max-width: 320px) {
 
-.Testimonials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
+
 @media screen and (max-width: 375px) {
 
-.Testimonials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
+
 @media screen and (max-width: 425px) {
 
-.Testimonials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
+
 @media screen and (max-width: 768px) {
 
-.Testimonials {
-    display: flex;
-    flex-direction: column;
-}
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
+
 @media screen and (max-width: 425px) {
-.card-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+    }
 }
-}
+
 @media screen and (max-width: 768px) {
-.AshramList{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .AshramList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+    }
 }
-}
+
 @media screen and (max-width: 320px) {
-.ourSanta{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    .ourSanta {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
 
+    }
 }
-}
+
 @media screen and (max-width: 375px) {
-.ourSanta{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    .ourSanta {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
 
+    }
 }
+
+@media screen and (max-width: 425px) {
+    .ourSanta {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Card-Title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-slider {
+        display: none;
+    }
+
+    .mob-main-slider {
+        display: block;
+    }
+    .mob-Sub-slider {
+        display: none;
+    }
+    .Bussiness {
+        width: 100%;
+    }
+
 }
 @media screen and (max-width: 425px) {
-.ourSanta{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    .main-slider {
+        display: none;
+    }
+
+    .mob-main-slider {
+        display: none;
+    }
+    .mob-Sub-slider {
+        display: block;
+    }
+    .call-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+                .Bussiness {
+                    width: 100%;
+                }
 
 }
-}
-@media screen and (max-width: 768px) {
-.Card-Title{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-}
-
 
