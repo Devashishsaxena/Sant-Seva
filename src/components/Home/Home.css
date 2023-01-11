@@ -1,30 +1,47 @@
-
 .linkTag {
     border: 1px solid #4DBB6D;
-        color: #4DBB6D;
-        padding: 11px 30px;
-        margin: 16px 0px 8px;
-        font: 12.8px sintony, sans-serif;
-        text-decoration: none;
+    color: #4DBB6D;
+    padding: 11px 30px;
+    margin: 16px 0px 8px;
+    font: 12.8px sintony, sans-serif;
+    text-decoration: none;
 
 }
+
 .linkTag:hover {
     background-color: #4DBB6D;
-        color: #ffffff !important;
+    color: #ffffff !important;
 }
-.linkButton{
-       border: 1px solid #4DBB6D;
-        background-color: #4DBB6D;
-        padding: 11px 30px;
-        margin: 16px 0px 8px;
-        font: 12.8px sintony, sans-serif;
-        text-decoration: none;
-        color: #ffffff !important;
+
+.Read-More {
+    border: 1px solid #4DBB6D;
+    color: #4DBB6D;
+    padding: 11px 30px;
+    margin: 16px 0px 8px;
+    font: 12.8px sintony, sans-serif;
+    text-decoration: none;
 }
-.linkButton:hover{
+
+.Read-More:hover {
     background-color: #69c684;
-        color: #ffffff !important;
+    color: #ffffff !important;
 }
+
+.linkButton {
+    border: 1px solid #4DBB6D;
+    background-color: #4DBB6D;
+    padding: 11px 30px;
+    margin: 16px 0px 8px;
+    font: 12.8px sintony, sans-serif;
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.linkButton:hover {
+    background-color: #69c684;
+    color: #ffffff !important;
+}
+
 .FaGreaterThan {
     background-color: #E2FDEA;
     height: 25px;
@@ -43,13 +60,25 @@
     height: 110px;
     width: 110px;
     border-radius: 300px;
-border: 10px solid #ffffff
+    border: 10px solid #ffffff
 }
 
-.GreenEffect:hover{
+.ourTest {
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    border: 10px solid #ffffff
+}
+
+.vertical {
+    border-left: 4px solid #4DBB6D;
+    height: 60px;
+}
+
+.GreenEffect:hover {
     cursor: pointer;
-    background-color : #4DBB6D;
-    
+    background-color: #4DBB6D;
+
 }
 
 .demo {
@@ -92,6 +121,161 @@ border: 10px solid #ffffff
     margin: auto;
 }
 
+.carousel-control-prev-icon {
+    background: url("../Assests/Img/ArrowLeft.png") no-repeat scroll 0 0 !important;
+    position: absolute !important;
+    min-height: 20vh !important;
+    min-width: 50px !important;
+    background-size: contain !important;
+    cursor: pointer;
+    color: #FFFFFF !important;
+}
+
+.carousel-control-next-icon {
+    background: url("../Assests/Img/ArrowRight.png") no-repeat scroll 0 0 !important;
+    position: absolute !important;
+    height: 20vh !important;
+    width: 50px !important;
+    background-size: contain !important;
+    cursor: pointer;
+    color: #FFFFFF !important;
+}
+
+.carousel-dark .carousel-control-next-icon {
+    display: none;
+}
+
+.carousel-dark .carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-indicators {
+    position: absolute !important;
+    left: 75% !important;
+    top: -5vh;
+    width: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border: 2px solid #000 !important;
+    background-color: #fff !important;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border: 2px solid #4DBB6D !important;
+    background-color: #fff !important;
+}
+
+.carousel-indicators [data-bs-target].active {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border: 2px solid #4DBB6D !important;
+    background-color: #fff !important;
+}
+
+.oursant {
+    background-color: #eef4f2 !important;
+    border-color: #dfeae6 !important;
+}
+
+.Font-oursant {
+    font-size: 16.8px;
+    font-family: sintony, sans-serif;
+}
+
+.Font-oursant-ok {
+    font-size: 14px;
+    font-family: sintony, sans-serif;
+}
+
+.oursant-icon {
+    position: relative;
+    top: 54%;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 13px;
+
+
+}
+
+.oursant-icon:hover {
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.Font-Carousel {
+    font-size: 26px;
+    font-family: playfair Display, serif;
+    color: #FFFFFF;
+}
+
+.Font-Schedule {
+    color: #fff;
+    margin: "0px 0px 20px";
+    font-size: "13px";
+    font-family: "Sintony,sans-serif";
+}
+.mail {
+    color: #fff;
+}
+.Mail-m {
+    color: #fff;
+}
+
+.large-slider {
+    display: block;
+}
+
+.mob-slider {
+    display: none;
+}
+
+.mobile-slider {
+    display: none;
+}
+
+.mob-main-slider {
+    display: none;
+}
+.mob-Sub-slider {
+    display: none;
+}
+
+@media screen and (max-width: 940px) {
+    .large-slider {
+        display: none;
+    }
+
+    .mob-slider {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .large-slider {
+        display: none;
+    }
+
+    .mob-slider {
+        display: none;
+    }
+
+    .mobile-slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width: 940px) {
     .demo .container {
@@ -104,4 +288,182 @@ border: 10px solid #ffffff
         width: 100%;
         height: auto;
     }
+
 }
+
+@media screen and (max-width: 320px) {
+    .ashram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .carousel-indicators {
+        left: 65% !important;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .carousel-indicators {
+        left: 60% !important;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .carousel-indicators {
+        left: 58% !important;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .carousel-indicators {
+        left: 50% !important;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .Testimonials {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .AshramList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ourSanta {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .ourSanta {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .ourSanta {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Card-Title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-slider {
+        display: none;
+    }
+
+    .mob-main-slider {
+        display: block;
+    }
+    .mob-Sub-slider {
+        display: none;
+    }
+    .Bussiness {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .main-slider {
+        display: none;
+    }
+
+    .mob-main-slider {
+        display: none;
+    }
+    .mob-Sub-slider {
+        display: block;
+    }
+    .call-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+                .Bussiness {
+                    width: 100%;
+                }
+
+}
+
