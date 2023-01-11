@@ -92,6 +92,7 @@ border: 10px solid #ffffff
     margin: auto;
 }
 
+
 @media screen and (max-width: 940px) {
     .demo .container {
         max-width: 100%;

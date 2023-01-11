@@ -1,4 +1,4 @@
-button {
+/* button {
   border: 1px solid #4DBB6D;
   color: #4DBB6D;
   padding: 11px 30px;
@@ -13,8 +13,37 @@ button:hover {
 button a {
   text-decoration: none;
   /* color: #4DBB6D; */
-}
+/* }
 button a:hover{
   background-color: #4DBB6D;
       color: #ffffff; 
+}  */
+
+
+
+
+.submit-btn {
+ background-color: transparent;
+ border-radius: 0px ;
+ border: 2px solid #4dbb6d;
+  color: #4dbb6d;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
 }
+
+
+.submit-btn:hover {
+  background-color: #4dbb6d; 
+  color: white;
+  padding: 12px 32  px;
+  text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  cursor: pointer;
+}
+
+
