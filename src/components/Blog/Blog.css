@@ -13,3 +13,23 @@
 
     }
 }
+@media screen and (max-width:375px) {
+    .Card-absolute {
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 70% !important;
+
+    }
+}
+@media screen and (max-width:320px) {
+    .Card-absolute {
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 65% !important;
+
+    }
+}

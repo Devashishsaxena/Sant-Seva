@@ -3,26 +3,27 @@ import { AiOutlineRight } from "react-icons/ai";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Footer from "../Footer/Footer";
 import Aasharam1 from "../Assests/Img/Aasharam1.jpg.jpg";
+import new1 from "../Assests/Img/new1.jpg";
+import new2 from "../Assests/Img/new2.jpg";
+import new3 from "../Assests/Img/new3.jpg";
 import { Link } from "react-router-dom";
 import "./Aasharam.css";
 function Aasharam() {
   return (
     <>
-      <div className="bg-dark pt-5 pb-5">
-        <section className="page-header page-header-modern bg-color-quaternary page-header-md custom-page-header">
-          <div className="container">
-            <div className="row mt-3">
-              <div className="col-md-8 order-2 order-md-1 align-self-center p-static">
-                <h2 className="text-white">- Aasharam list</h2>
-                <span className="d-block text-4 text-white">What We do</span>
-              </div>
-              <div className="col-md-4 order-1 order-md-2 align-self-center  ">
+      <div className="bg-dark pt-5 pb-3">
+        <div className="container">
+          <div className="row mt-3">
+            <div className="col-md-12 text-center pt-4">
+              <h2 className="text-white">Aasharam list</h2>
+              <span className="d-block text-4 text-white">What We do</span>
+            </div>
+            {/* <div className="col-md-4 order-1 order-md-2 align-self-center  ">
                 <small>
                   <ul className="breadcrumb d-flex justify-content-end  ">
                     <li className=" me-end ">
                       <Link
                         to={"/home"}
-                        href="#"
                         className="text-underline-hover text-white me-2"
                       >
                         Home <AiOutlineRight />
@@ -34,15 +35,14 @@ function Aasharam() {
                     </li>
                   </ul>
                 </small>
-              </div>
-            </div>
+              </div> */}
           </div>
-        </section>
+        </div>
       </div>
       <div className=" container mt-5 mb-5">
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
-            <img src={Aasharam1} className="" />
+            <img src={new1} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -60,7 +60,7 @@ function Aasharam() {
         </div>
         <div className="row mt-5">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
-            <img src={Aasharam1} className="" />
+            <img src={new2} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -78,7 +78,7 @@ function Aasharam() {
         </div>
         <div className="row mt-5">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
-            <img src={Aasharam1} className="" />
+            <img src={new3} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -120,7 +120,7 @@ function Aasharam() {
         </div>
         <div className="row mt-5">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
-            <img src={Aasharam1} className="" />
+            <img src={new2} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>
@@ -138,7 +138,7 @@ function Aasharam() {
         </div>
         <div className="row mt-5">
           <div className="col-lg-2 col-md-3 col-sm-12 text-center ourSan">
-            <img src={Aasharam1} className="" />
+            <img src={new3} className="" />
           </div>
           <div className="col-lg-10 col-md-12  mt-2 text-start">
             <h4 className="">Corporate Finance</h4>

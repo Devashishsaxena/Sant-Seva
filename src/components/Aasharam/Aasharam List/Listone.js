@@ -1,43 +1,40 @@
 import React from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import Aasharam1 from "../../Assests/Img/Aasharam1.jpg.jpg";
+import { Link } from "react-router-dom";
 const Listone = () => {
   return (
     <div>
-      <div className="bg-dark pt-5 pb-5">
-        <section className="page-header page-header-modern bg-color-quaternary page-header-md custom-page-header">
-          <div className="container">
-            <div className="row mt-3">
-              <div className="col-md-8 order-2 order-md-1 align-self-center p-static">
-                <h2 className="text-white">- LCorporate Finance</h2>
-                <span className="d-block lead  text-secondary">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </span>
-              </div>
-              <div className="col-md-4 order-1 order-md-2 align-self-center  ">
+      <div className="bg-dark pt-5 pb-3">
+        <div className="container">
+          <div className="row mt-3">
+            <div className="col-md-12 text-center pt-4">
+              <h2 className="text-white">ListOne</h2>
+              <span className="d-block lead  text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </span>
+            </div>
+            {/* <div className="col-md-4 order-1 order-md-2 align-self-center  ">
                 <small>
                   <ul className="breadcrumb d-flex justify-content-end  ">
                     <li className=" me-end ">
-                      <a
-                        href="#"
+                      <Link
+                        to={"/home"}
                         className="text-underline-hover text-white me-2"
                       >
-                       
                         Home <AiOutlineRight />
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="active text-white me-5 ">
-                     
-                      Aasharam list <AiOutlineRight />{" "}
+                      Aasharam list <AiOutlineRight />
                       <span className="text-secondary">List One</span>
                     </li>
                   </ul>
                 </small>
-              </div>
-            </div>
+              </div> */}
           </div>
-        </section>
+        </div>
       </div>
       <div className="container mt-5">
         <div class="row pt-1 pb-4 mb-3">
@@ -66,14 +63,14 @@ const Listone = () => {
                     <AiOutlineRight
                       className="rounded-circle fs-3 p-2"
                       style={{ background: "#e2fdea" }}
-                    />{" "}
+                    />
                     <span className="ms-2">Certified Professionals</span>
                   </li>
                   <li>
                     <AiOutlineRight
                       className="rounded-circle fs-3 p-2"
                       style={{ background: "#e2fdea" }}
-                    />{" "}
+                    />
                     <span className="ms-2"> Former Chief Executives</span>
                   </li>
                 </ul>
@@ -84,14 +81,14 @@ const Listone = () => {
                     <AiOutlineRight
                       className="rounded-circle fs-3 p-2"
                       style={{ background: "#e2fdea" }}
-                    />{" "}
+                    />
                     <span className="ms-2">Real Estate Professionals</span>
                   </li>
                   <li>
                     <AiOutlineRight
                       className="rounded-circle fs-3 p-2"
                       style={{ background: "#e2fdea" }}
-                    />{" "}
+                    />
                     <span className="ms-2"> Chartered Financial Analystss</span>
                   </li>
                 </ul>
@@ -102,14 +99,14 @@ const Listone = () => {
                     <AiOutlineRight
                       className="rounded-circle fs-3 p-2"
                       style={{ background: "#e2fdea" }}
-                    />{" "}
+                    />
                     <span className="ms-2"> Nobel Laureate Economists</span>
                   </li>
                   <li>
                     <AiOutlineRight
                       className="rounded-circle fs-3 p-2"
                       style={{ background: "#e2fdea" }}
-                    />{" "}
+                    />
                     <span className="ms-2"> Former Political Leaders</span>
                   </li>
                 </ul>

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac134a26.css",
+    "main.js": "/static/js/main.509c8d78.js",
+    "static/js/787.bd9d7263.chunk.js": "/static/js/787.bd9d7263.chunk.js",
+    "static/media/new5.jpg": "/static/media/new5.31f9f1ee98273a36cded.jpg",
+    "static/media/Aasharam4.jpg": "/static/media/Aasharam4.f260ea242907be52b4f8.jpg",
+    "static/media/Aasharam2.jpg.jpg": "/static/media/Aasharam2.jpg.b854aa3aa0cd18f3133f.jpg",
+    "static/media/muni2.jpg": "/static/media/muni2.642d8f63de8824a37cdf.jpg",
+    "static/media/Temples2.jpg": "/static/media/Temples2.64ade104674cbd5d198a.jpg",
+    "static/media/new3.jpg": "/static/media/new3.3cccef39ae9a7151f079.jpg",
+    "static/media/muni3.jpg": "/static/media/muni3.0c8d6be7d363f11b2a78.jpg",
+    "static/media/new2.jpg": "/static/media/new2.e185ed11e9deecca493c.jpg",
+    "static/media/Temples1.jpg": "/static/media/Temples1.3a255e7b435abc7d9eb8.jpg",
+    "static/media/Aasharam1.jpg.jpg": "/static/media/Aasharam1.jpg.a3876e9633dfa705cbc3.jpg",
+    "static/media/temple1.jpg": "/static/media/temple1.d81e230f9bd1e087d6b7.jpg",
+    "static/media/new1.jpg": "/static/media/new1.b0a15c123f0f039ed770.jpg",
+    "static/media/temple2.jpg": "/static/media/temple2.a038ce557a58c6b49461.jpg",
+    "static/media/new4.jpg": "/static/media/new4.c85cfc79efcdf4f00ca8.jpg",
+    "static/media/muni1.jpg": "/static/media/muni1.5a9de46caac8e8341aa0.jpg",
+    "index.html": "/index.html",
+    "main.ac134a26.css.map": "/static/css/main.ac134a26.css.map",
+    "main.509c8d78.js.map": "/static/js/main.509c8d78.js.map",
+    "787.bd9d7263.chunk.js.map": "/static/js/787.bd9d7263.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac134a26.css",
+    "static/js/main.509c8d78.js"
+  ]
+}

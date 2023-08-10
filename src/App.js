@@ -13,6 +13,7 @@ import Listone from "./components/Aasharam/Aasharam List/Listone";
 import ListTwo from "./components/Aasharam/Aasharam List/ListTwo";
 import ListThree from "./components/Aasharam/Aasharam List/ListThree";
 import ListFour from "./components/Aasharam/Aasharam List/ListFour";
+import GlobelOpperunites from "./components/Blog/GlobelOpperunites";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/listtwo" element={<ListTwo />} />
         <Route path="/listthree" element={<ListThree />} />
         <Route path="/listfour" element={<ListFour />} />
+        <Route path="/globel" element={<GlobelOpperunites />} />
       </Routes>
       <Footer></Footer>
     </>

@@ -8,50 +8,22 @@ import { FaUser } from "react-icons/fa";
 import { RxEnvelopeClosed } from "react-icons/rx";
 import { TbMessageCircle2 } from "react-icons/tb";
 import { BsTelephone } from "react-icons/bs";
-import { Link } from "react-router-dom";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import { AiOutlineRight } from "react-icons/ai";
 import "./ContactUs.css";
-import FloatingLabel from "react-bootstrap/FloatingLabel";
-import { Button } from "react-bootstrap";
-
 const ContactUs = () => {
   return (
     <>
-      <div className="bg-dark pt-5 pb-5">
-        <section className="page-header page-header-modern bg-color-quaternary page-header-md custom-page-header">
-          <div className="container">
-            <div className="row mt-3">
-              <div className="col-md-8 order-2 order-md-1 align-self-center p-static">
-                <h2 className="text-white">- Corporate Finance</h2>
-                <span className="d-block lead  text-secondary">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </span>
-              </div>
-              <div className="col-md-4 order-1 order-md-2 align-self-center  ">
-                <small>
-                  <ul className="breadcrumb d-flex justify-content-end  ">
-                    <li className=" me-end ">
-                      <Link
-                        to={"/home"}
-                        href="#"
-                        className="text-underline-hover text-white me-2"
-                      >
-                        Home <AiOutlineRight />
-                      </Link>
-                    </li>
-
-                    <li className="active text-white me-5 ">
-                      {" "}
-                      Aasharam list <AiOutlineRight />{" "}
-                      <span className="text-secondary">List Four</span>
-                    </li>
-                  </ul>
-                </small>
-              </div>
+      <div className="bg-dark pt-5 pb-3">
+        <div className="container">
+          <div className="row mt-3">
+            <div className="col-md-12 text-center pt-4">
+              <h2 className="text-white">Contact Us</h2>
+              <span className="d-block lead  text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </span>
             </div>
           </div>
-        </section>
+        </div>
       </div>
 
       <div className="container mb-5">
@@ -132,10 +104,7 @@ const ContactUs = () => {
             </p>
             <br></br>
             <h3>
-              {" "}
-              <RxEnvelopeClosed
-                style={{ color: "#4dbb6d" }}
-              ></RxEnvelopeClosed>{" "}
+              <RxEnvelopeClosed style={{ color: "#4dbb6d" }}></RxEnvelopeClosed>{" "}
               - Email
             </h3>
             <p style={{ color: "#4dbb6d" }}>

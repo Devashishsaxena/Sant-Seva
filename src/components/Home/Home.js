@@ -21,7 +21,7 @@ function Home() {
     return (
         <React.Fragment>
             <div className='main-slider'>
-            <Carousel  fade interval={3000} style={{ opacity: "0.9" }}>
+            <Carousel className='text-white' fade interval={3000} style={{ opacity: "0.9" }}>
                 <Carousel.Item  >
                     <img
                         className="d-block"
@@ -326,10 +326,10 @@ function Home() {
             <div className='container mt-5'>
                 <div className='row'>
                     <div className='mt-5'>
-                        <h1>
+                        <h1 className='d-flex justify-content-center'>
                             About Us
                         </h1>
-                        <p>
+                        <p className='mt-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quisquam beatae, debitis nisi quod nam architecto unde non, quibusdam in corporis corrupti. Nostrum, accusamus adipisci voluptates facilis dolorum velit tempora molestias voluptatibus laborum beatae, necessitatibus dolores, tempore assumenda iste quo quis nesciunt. Exercitationem voluptas eligendi consequuntur iusto sint at harum eum. Explicabo quisquam aliquam non quis assumenda, sint quos iusto, neque laboriosam quo minima aut amet culpa, ex dolore quidem accusantium odit. Quaerat suscipit distinctio fugiat repellendus ea reiciendis quisquam, quo odio sunt dignissimos aperiam nihil ipsa nesciunt perspiciatis eos facilis minus. Eius delectus exercitationem voluptatem repellendus accusamus laboriosam consectetur.
                         </p>
                         <div className='d-flex flex-direction-column certified'>
@@ -372,7 +372,7 @@ function Home() {
             <div className='container-fluid mt-5' style={{ backgroundColor: "#EEF4F2" }}>
                 <div className='row'>
                     <div className='mt-5 '>
-                        <h1>Ashram List</h1>
+                        <h1 className='d-flex justify-content-center'>Ashram List</h1>
                     </div>
                 </div>
                 <div className="row d-flex justify-content-evenly mt-5">
@@ -459,7 +459,7 @@ function Home() {
                 </div>
 
                 <div className='d-flex justify-content-center align-items-center mt-3'>
-                    <Link to='/about' className='linkTag'>View All</Link>
+                    <Link to='/aasharam' className='linkTag'>View All</Link>
                 </div>
             </div>
 
@@ -470,11 +470,11 @@ function Home() {
 
 
 
-<div className='mt-5'>
+<div className='mt-5 '>
             <div className='oursant'>
                 <div className='d-flex'>
-                    <p className="fs-1 text-dark mx-2">_</p>
-                    <h1 className='mt-2'>OurSant</h1>
+                    {/* <p className="fs-1 text-dark mx-2">_</p> */}
+                    <h1 className='mt-2'>Our-Sant</h1>
                 </div>
                 <div className='large-slider'>
                     <Carousel className='position-sticky' variant='dark' fade style={{ opicity: "0.4" }}>
@@ -495,8 +495,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Aasharam1} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Aasharam1} style={{ width: '14rem' }} />
+                                             </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corprate Restructuring</h5>
                                             <div className="d-flex justify-content-between">
@@ -505,8 +507,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Temples2} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div   className='Corprate-Img'>
+                                                <img className='corprate-Img-2'  src={Temples2} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Economic Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -515,8 +519,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Aasharam2} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div  className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Aasharam2} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Litigation Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -525,8 +531,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Temples1} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Temples1} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Strategic Consulting</h5>
 
@@ -537,8 +545,10 @@ function Home() {
                                         </div>
                                     </div>
 
-                                    <div className='col-2'>
-                                        <img src={Aasharam1} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Aasharam1} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Tech Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -547,8 +557,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Temples2} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Temples2} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Brand Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -564,8 +576,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-2'>
-                                        <img src={Aasharam2} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Aasharam2} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Tech  Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -574,8 +588,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Temples1} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2'  src={Temples1} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Strategic</h5>
                                             <div className="d-flex justify-content-between">
@@ -584,8 +600,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Aasharam1} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Aasharam1} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Litigation</h5>
                                             <div className="d-flex justify-content-between">
@@ -594,8 +612,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Temples2} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2'  src={Temples2} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -604,8 +624,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Aasharam2} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2' src={Aasharam2} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Brand Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -614,8 +636,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-2'>
-                                        <img src={Temples1} style={{ width: '14rem' }} />
+                                        <div className='col-2 Corprate'>
+                                            <div className='Corprate-Img'>
+                                                <img className='corprate-Img-2'  src={Temples1} style={{ width: '14rem' }} />
+                                                </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Coprate Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -637,8 +661,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-6'>
-                                        <img src={Aasharam1} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2' src={Aasharam1} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corpate Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -647,8 +673,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-6'>
-                                        <img src={Temples2} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2' src={Temples2} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corprate Restructuring</h5>
                                             <div className="d-flex justify-content-between">
@@ -663,8 +691,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-6'>
-                                        <img src={Aasharam2} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2' src={Aasharam2} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Economic Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -673,8 +703,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-6'>
-                                        <img src={Temples1} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Temples1} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Litigation Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -689,8 +721,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-6'>
-                                        <img src={Aasharam1} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2' src={Aasharam1} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Strategic Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -699,8 +733,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-6'>
-                                        <img src={Temples2} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Temples2} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Tech Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -715,8 +751,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-6'>
-                                        <img src={Aasharam2} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Aasharam2} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Strategic</h5>
                                             <div className="d-flex justify-content-between">
@@ -725,8 +763,10 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-6'>
-                                        <img src={Temples1} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Temples1} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Litigation</h5>
                                             <div className="d-flex justify-content-between">
@@ -741,8 +781,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-6'>
-                                        <img src={Aasharam1} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Aasharam1} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -752,8 +794,10 @@ function Home() {
                                         </div>
                                     </div>
 
-                                    <div className='col-6'>
-                                        <img src={Temples2} style={{ width: '24rem' }} />
+                                    <div className='col-6 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Temples2} style={{ width: '24rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Brand Consulting</h5>
                                             <div className="d-flex justify-content-between">
@@ -780,8 +824,10 @@ function Home() {
                             <div>
 
                                 <div className='d-flex'>
-                                    <div className='col-12'>
-                                        <img src={Aasharam2} style={{ width: '20rem' }} />
+                                    <div className='col-12 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Aasharam2} style={{ width: '20rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corpate Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -796,8 +842,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-12'>
-                                        <img src={Temples1} style={{ width: '20rem' }} />
+                                    <div className='col-12 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Temples1} style={{ width: '20rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corpate Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -814,8 +862,10 @@ function Home() {
                             <div>
 
                                 <div className='d-flex'>
-                                    <div className='col-12'>
-                                        <img src={Temples2} style={{ width: '20rem' }} />
+                                    <div className='col-12 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Temples2} style={{ width: '20rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corpate Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -830,8 +880,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-12'>
-                                        <img src={Aasharam2} style={{ width: '20rem' }} />
+                                    <div className='col-12 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Aasharam2} style={{ width: '20rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corpate Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -846,8 +898,10 @@ function Home() {
                         <Carousel.Item >
                             <div>
                                 <div className='d-flex'>
-                                    <div className='col-12'>
-                                        <img src={Temples1} style={{ width: '20rem' }} />
+                                    <div className='col-12 Corprate'>
+                                        <div className='Corprate-Img'>
+                                            <img className='corprate-Img-2'  src={Temples1} style={{ width: '20rem' }} />
+                                            </div>
                                         <div className='GreenEffect'>
                                             <h5 className='Font-oursant'>Corpate Finance</h5>
                                             <div className="d-flex justify-content-between">
@@ -866,7 +920,7 @@ function Home() {
             <div className='mt-5'>
             <div className='d-flex'>
                 <p className="fs-1 text-dark mx-2">_</p>
-                <h1 className='mt-2'>Testimonials</h1>
+                <h1 className='mt-2 '>Testimonials</h1>
             </div>
             <Carousel className='mt-2 position-sticky' fade variant='dark' interval={null} >
                 <Carousel.Item>
@@ -926,9 +980,9 @@ function Home() {
                 </Carousel>
                 </div>
             <div className="container-fluid mt-5">
-                <div className='d-flex'>
-                    <p className="fs-1 text-dark mx-2">_</p>
-                    <h1 className='mt-2'>OurBlog</h1>
+                <div className='d-flex justify-content-center'>
+                    {/* <p className="fs-1 text-dark mx-2">_</p> */}
+                    <h1 className='mt-2'>Our-Blog</h1>
                 </div>
 
                 <Card style={{ width: 'auto', border: 'none' }} >
@@ -950,7 +1004,7 @@ function Home() {
                                     </p>
                                 </Card.Text>
                                 <div className='d-flex justify-content-start align-items-start mt-5'>
-                                    <Link to='/about' className='Read-More'>Read More</Link>
+                                    <Link to='/blog' className='Read-More'>Read More</Link>
                                 </div>
                             </Col>
                         </Row>
